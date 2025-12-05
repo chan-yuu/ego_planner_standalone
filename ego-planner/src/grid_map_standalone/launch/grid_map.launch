@@ -1,0 +1,22 @@
+<launch>
+  <!-- Grid Map Standalone Node -->
+  <node pkg="grid_map_standalone" name="grid_map_standalone" type="grid_map_node" output="screen">
+    <!-- Map parameters -->
+    <param name="grid_map/resolution" value="0.1" type="double"/>
+    <param name="grid_map/map_size_x" value="40.0" type="double"/>
+    <param name="grid_map/map_size_y" value="40.0" type="double"/>
+    <param name="grid_map/map_size_z" value="3.0" type="double"/>
+    
+    <!-- Local update range -->
+    <param name="grid_map/local_update_range_x" value="5.5" type="double"/>
+    <param name="grid_map/local_update_range_y" value="5.5" type="double"/>
+    <param name="grid_map/local_update_range_z" value="4.5" type="double"/>
+    
+    <!-- Inflation radius (障碍物膨胀半径) -->
+    <param name="grid_map/obstacles_inflation" value="0.2" type="double"/>
+    
+    <!-- Ray casting parameters -->
+    <param name="grid_map/min_ray_length" value="0.1" type="double"/>
+    <param name="grid_map/max_ray_length" value="4.5" type="double"/>
+  </node>
+</launch>
