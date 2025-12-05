@@ -1,0 +1,8 @@
+prefix=/home/cyun/Documents/ego-planner/2.0/12.4-ego-planner/ego-planner/devel
+
+Name: grid_map_standalone
+Description: Description of grid_map_standalone
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs nav_msgs sensor_msgs geometry_msgs visualization_msgs cv_bridge message_filters

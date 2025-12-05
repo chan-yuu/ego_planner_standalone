@@ -1,0 +1,8 @@
+prefix=/home/cyun/Documents/ego-planner/2.0/12.4-ego-planner/ego-planner/devel
+
+Name: ego_planner
+Description: Description of ego_planner
+Version: 0.0.0
+Cflags: -I/home/cyun/Documents/ego-planner/2.0/12.4-ego-planner/ego-planner/devel/include -I/home/cyun/Documents/ego-planner/2.0/12.4-ego-planner/ego-planner/src/planner/plan_manage/include
+Libs: -L${prefix}/lib -lego_planner
+Requires: plan_env path_searching bspline_opt traj_utils message_runtime

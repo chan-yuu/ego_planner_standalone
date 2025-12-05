@@ -1,0 +1,8 @@
+prefix=/home/cyun/Documents/ego-planner/2.0/12.4-ego-planner/ego-planner/devel
+
+Name: so3_quadrotor_simulator
+Description: Description of so3_quadrotor_simulator
+Version: 0.0.0
+Cflags: -I/home/cyun/Documents/ego-planner/2.0/12.4-ego-planner/ego-planner/src/uav_simulator/so3_quadrotor_simulator/include
+Libs: -L${prefix}/lib 
+Requires: roscpp quadrotor_msgs uav_utils

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -std=c++11 -O3 -Wall -g -shared -Wl,-soname,libquadrotor_dynamics.so -o /home/cyun/Documents/ego-planner/2.0/12.4-ego-planner/ego-planner/devel/lib/libquadrotor_dynamics.so CMakeFiles/quadrotor_dynamics.dir/src/dynamics/Quadrotor.cpp.o   -L/home/cyun/Documents/ego-planner/2.0/12.4-ego-planner/ego-planner/src/uav_simulator/Utils/cmake_utils/lib/mosek8

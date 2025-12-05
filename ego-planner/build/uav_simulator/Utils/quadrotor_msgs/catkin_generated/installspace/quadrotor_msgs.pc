@@ -1,0 +1,8 @@
+prefix=/home/cyun/Documents/ego-planner/2.0/12.4-ego-planner/ego-planner/install
+
+Name: quadrotor_msgs
+Description: Description of quadrotor_msgs
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lencode_msgs -ldecode_msgs
+Requires: message_runtime

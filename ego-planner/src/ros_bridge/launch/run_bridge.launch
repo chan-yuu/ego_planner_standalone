@@ -1,0 +1,8 @@
+<launch>
+    <!-- ROS桥接节点 -->
+    <node pkg="ego_planner_bridge" type="ego_planner_bridge_node" name="ego_planner_bridge" output="screen">
+        <remap from="/odom_world" to="/visual_slam/odom"/>
+        <remap from="/grid_map/cloud" to="/grid_map/occupancy_inflate"/>
+    </node>
+    
+</launch>

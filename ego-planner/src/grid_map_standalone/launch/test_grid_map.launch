@@ -1,0 +1,20 @@
+<launch>
+  <!--  
+    Grid Map Standalone 测试 Launch 文件
+    
+    使用方法:
+    1. 启动仿真环境 (提供 /odom_world 和 /pcl_render_node/cloud 话题)
+    2. 启动本 launch 文件: roslaunch grid_map_standalone test_grid_map.launch
+    3. 检查话题:
+       rostopic hz /grid_map/occupancy_inflate
+       rostopic hz /grid_map/occupancy
+  -->
+  
+  <!-- 包含完整的 grid_map 参数 -->
+  <include file="$(find grid_map_standalone)/launch/grid_map_params.xml">
+    <!-- 可以在这里覆盖默认参数 -->
+    <arg name="cloud_topic" value="/pcl_render_node/cloud"/>
+    <arg name="odometry_topic" value="/visual_slam/odom"/>
+  </include>
+  
+</launch>

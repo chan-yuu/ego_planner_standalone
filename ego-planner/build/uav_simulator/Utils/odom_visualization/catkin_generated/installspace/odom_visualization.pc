@@ -1,0 +1,8 @@
+prefix=/home/cyun/Documents/ego-planner/2.0/12.4-ego-planner/ego-planner/install
+
+Name: odom_visualization
+Description: Description of odom_visualization
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
