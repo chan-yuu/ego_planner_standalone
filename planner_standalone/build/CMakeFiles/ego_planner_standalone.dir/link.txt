@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -Wall CMakeFiles/ego_planner_standalone.dir/src/main.cpp.o -o ego_planner_standalone  libego_planner_standalone_lib.a -lrt -lpthread

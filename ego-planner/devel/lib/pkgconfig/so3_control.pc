@@ -1,8 +1,0 @@
-prefix=/home/cyun/Documents/ego-planner/2.0/12.4-ego-planner/ego-planner/devel
-
-Name: so3_control
-Description: Description of so3_control
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

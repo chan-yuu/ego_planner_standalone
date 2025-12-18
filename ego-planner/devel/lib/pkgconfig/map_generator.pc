@@ -1,8 +1,0 @@
-prefix=/home/cyun/Documents/ego-planner/2.0/12.4-ego-planner/ego-planner/devel
-
-Name: map_generator
-Description: Description of map_generator
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

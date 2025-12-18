@@ -1,8 +1,0 @@
-prefix=/home/cyun/Documents/ego-planner/2.0/12.4-ego-planner/ego-planner/devel
-
-Name: local_sensing_node
-Description: Description of local_sensing_node
-Version: 0.1.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: roscpp roslib pcl_ros

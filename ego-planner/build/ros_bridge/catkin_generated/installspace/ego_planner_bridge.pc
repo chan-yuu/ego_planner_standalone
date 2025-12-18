@@ -1,8 +1,0 @@
-prefix=/home/cyun/Documents/ego-planner/2.0/12.4-ego-planner/ego-planner/install
-
-Name: ego_planner_bridge
-Description: Description of ego_planner_bridge
-Version: 1.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: roscpp std_msgs geometry_msgs nav_msgs sensor_msgs
