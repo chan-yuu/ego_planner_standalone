@@ -15,7 +15,10 @@
     allowfullscreen="true">
 </iframe>
 
-[![ego_planner的独立实现](你的封面图片链接)]([B站视频链接](https://www.bilibili.com/video/BV1ij27BtEzd/?vd_source=32148098d54c83926572ec0bab6a3b1d#reply115667395152781))
+
+[![ego_planner的独立实现](<img width="2560" height="1600" alt="PixPin_2026-02-05_10-57-44" src="https://github.com/user-attachments/assets/81bbd3fc-4a3e-4d53-9916-a6dad645bb1c" />
+)]([B站视频链接](https://www.bilibili.com/video/BV1ij27BtEzd/?vd_source=32148098d54c83926572ec0bab6a3b1d#reply115667395152781))
+
 
 ## 当前架构
 
