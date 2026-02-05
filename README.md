@@ -4,18 +4,6 @@
 2. **Planner Standalone** (`planner_standalone`): 无ROS依赖的纯C++规划算法
 
 
-<iframe 
-    src="" 
-    width="800" 
-    height="450" 
-    scrolling="no" 
-    border="0" 
-    frameborder="no" 
-    framespacing="0" 
-    allowfullscreen="true">
-</iframe>
-
-
 [![ego_planner的独立实现](<img width="2560" height="1600" alt="PixPin_2026-02-05_10-57-44" src="https://github.com/user-attachments/assets/81bbd3fc-4a3e-4d53-9916-a6dad645bb1c" />)]([B站视频链接](https://www.bilibili.com/video/BV1ij27BtEzd/?vd_source=32148098d54c83926572ec0bab6a3b1d#reply115667395152781))
 
 
