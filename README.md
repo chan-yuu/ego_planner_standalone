@@ -5,7 +5,7 @@
 
 
 <iframe 
-    src="https://www.bilibili.com/video/BV1ij27BtEzd/?vd_source=32148098d54c83926572ec0bab6a3b1d#reply115667395152781" 
+    src="" 
     width="800" 
     height="450" 
     scrolling="no" 
@@ -15,6 +15,7 @@
     allowfullscreen="true">
 </iframe>
 
+[![ego_planner的独立实现](你的封面图片链接)]([B站视频链接](https://www.bilibili.com/video/BV1ij27BtEzd/?vd_source=32148098d54c83926572ec0bab6a3b1d#reply115667395152781))
 
 ## 当前架构
 
