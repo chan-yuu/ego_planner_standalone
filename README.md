@@ -3,6 +3,17 @@
 1. **ROS Bridge** (`ego-planner/src/ros_bridge`): 处理ROS消息和共享内存通信
 2. **Planner Standalone** (`planner_standalone`): 无ROS依赖的纯C++规划算法
 
+
+<iframe 
+    src="https://www.bilibili.com/video/BV1ij27BtEzd/?vd_source=32148098d54c83926572ec0bab6a3b1d#reply115667395152781" 
+    width="800" 
+    height="450" 
+    scrolling="no" 
+    border="0" 
+    frameborder="no" 
+    framespacing="0" 
+    allowfullscreen="true">
+</iframe>
 ## 当前架构
 
 ### 数据流
