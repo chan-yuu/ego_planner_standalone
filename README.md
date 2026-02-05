@@ -69,7 +69,7 @@ pip install pyside6
 python application/ego_planner_gui.py
 ```
 # 示意图
-界面已经用pyside6重写了一般，更加的灵活。
+界面已经用pyside6重写了一版，更加的灵活。
 
 <img src="docs/png/1.png" alt="" style="width:500px;height:auto;">
 
